@@ -17,7 +17,7 @@ public final class App {
   private static final String QUERY = "SELECT '1'";
   static DatabaseClient client;
 
-  public static void App(String[] args) {
+  public static void main(String[] args) {
     client =
         SpannerOptions.newBuilder()
             .setNumChannels(1)
