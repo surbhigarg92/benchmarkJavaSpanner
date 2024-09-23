@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: surbhispannerdemo
+
+db:
+  projectId: span-cloud-testing
+  dbName: projects/span-cloud-testing/instances/surbhi-testing/databases/test-db
+  query: SELECT '1'
